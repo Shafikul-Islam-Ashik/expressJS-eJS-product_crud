@@ -1,0 +1,79 @@
+<div class="container my-5">
+  <div class="row justify-content-center my-5">
+    <div class="col-md-5">
+      <a class="btn btn-sm btn-primary mb-3" href="/">Back</a>
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Create Product</h2>
+        </div>
+        <div class="card-body">
+          <form action="/product" enctype="multipart/form-data" method="POST">
+            <div class="">
+              <label for="">Product Name</label>
+              <input type="text" class="form-control" name="product_name" />
+            </div>
+            <div class="my-3">
+              <label for="">Regular Price</label>
+              <input type="text" class="form-control" name="regular_price" />
+            </div>
+            <div class="my-3">
+              <label for=""> Sale Price</label>
+              <input type="text" class="form-control" name="sale_price" />
+            </div>
+            <div class="my-3">
+              <label for="">Stock</label>
+              <input type="text" class="form-control" name="stock" />
+            </div>
+            <div class="my-3">
+              <label for="">Photo</label>
+              <input
+                type="file"
+                class="form-control"
+                name="productPhoto"
+                id="photo-input"
+              />
+            </div>
+
+            <div
+              class="my-3"
+              style="
+                border: 3px solid #ddd;
+                height: 150px;
+                width: 150px;
+                margin: auto;
+                overflow: hidden;
+                border-radius: 5px;
+              "
+            >
+              <img
+                class="w-100"
+                height="150px"
+                src="/assets/images/product_avatar.png"
+                alt=""
+                id="photo-preview"
+              />
+            </div>
+
+            <div class="my-3">
+              <button class="btn btn-sm btn-primary w-100" type="submit">
+                Create
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const photoInput = document.getElementById("photo-input");
+  const photoPreview = document.getElementById("photo-preview");
+
+  photoInput.onchange = function () {
+    const imgSrc = URL.createObjectURL(this.files[0]);
+
+    photoPreview.src = imgSrc;
+  };
+</script>

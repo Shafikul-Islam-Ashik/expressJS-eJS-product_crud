@@ -1,0 +1,56 @@
+[
+  {
+    "id": "HX4ukLP3KoyNT7ed674w",
+    "product_name": "Juice",
+    "slug": "juice",
+    "regular_price": "350",
+    "sale_price": "200",
+    "stock": "10",
+    "photo": "1695886243241_50577_seafood-.jpg"
+  },
+  {
+    "id": "pcrJHA0q5u55sZjA8Lly",
+    "product_name": "Alo Pro Max",
+    "slug": "alo-pro-max",
+    "regular_price": "80",
+    "sale_price": "50",
+    "stock": "80",
+    "photo": "1695832431985_83344_fried-chicken.jpg"
+  },
+  {
+    "id": "pIK5aKVLQltSVmIuM9C0",
+    "product_name": "Pizza",
+    "slug": "pizza",
+    "regular_price": "250",
+    "sale_price": "180",
+    "stock": "50",
+    "photo": "1695837020179_46900_piza.jpg"
+  },
+  {
+    "id": "OOBkkuk6mOJLeGQcmtWm",
+    "product_name": "Kacchi Bereani",
+    "slug": "kacchi-bereani",
+    "regular_price": "300",
+    "sale_price": "100",
+    "stock": "15",
+    "photo": "1695838642039_25988_food (2).jpg"
+  },
+  {
+    "id": "KZG8Fns1nCLDjXLfStJY",
+    "product_name": "Pizza     Pro    Max",
+    "slug": "pizza-pro-max",
+    "regular_price": "300",
+    "sale_price": "200",
+    "stock": "5",
+    "photo": "1695838850458_11731_pizza-.jpg"
+  },
+  {
+    "id": "WCtNSXFU4Ry4RyCfs34u",
+    "product_name": "Chicken Fry Pro",
+    "slug": "chicken-fry-pro",
+    "regular_price": "500",
+    "sale_price": "300",
+    "stock": "5",
+    "photo": "1695885696106_1447_1 (2).jpg"
+  }
+]
